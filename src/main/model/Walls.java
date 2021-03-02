@@ -1,6 +1,6 @@
 package main.model;
 
-public class Walls {
+public class Walls extends Tunnel {
     private static  boolean isCold;
 
     public static boolean checkWallsCharacteristics(double temperature, String material, String smell) throws NullPointerException,IllegalArgumentException{
